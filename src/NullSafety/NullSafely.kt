@@ -1,3 +1,5 @@
+package NullSafety
+
 fun main(args: Array<String>) {
     // you can solve nullable value using question mark
     var x: String? = null
