@@ -32,4 +32,5 @@ fun main(args: Array<String>) {
     val employee = EmployeeChild("Marry", 20)
     employee.speak()
     println(employee.receivePayment())
+
 }
