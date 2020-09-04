@@ -41,7 +41,7 @@ class EmployeePersonAbstract(override val name: String, override var age: Int) :
 fun main(args: Array<String>) {
     val student = StudentPersonAbstract("John", 29, 122342)
     student.age = 18
-    student.speak();
+    student.speak()
     student.greet("Zey")
     println(student.isIntelligent())
 
