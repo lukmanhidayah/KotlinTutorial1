@@ -2,6 +2,7 @@ package functions
 
 import java.util.*
 
+
 // function with no parameter and no return
 fun helloWorld() {
     println("Hello world")
@@ -18,6 +19,8 @@ fun printWithSpaces(text: String) {
 fun getCurrentDate(): Date {
     return Date()
 }
+//or using java.util.Date and return java.utl.Date()
+
 
 //specify return type, must have return and have parameter
 fun max(a: Int, b: Int): Int{
